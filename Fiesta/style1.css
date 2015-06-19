@@ -1,3 +1,54 @@
 body{
-    background: mediumvioletred;
+    background: #c71585  bottom center no-repeat;
+
+    background-attachment: fixed;
+    background-size: 1050px 1050px;
+    font-size: 14px;
 }
+#contener{
+    width: 1000px;
+    background: #fff center;
+    height: 1000px;
+    margin: 20px 100px;
+    box-shadow: 0 0 10px black;
+}
+header{
+    color: #c71585;
+    background: dodgerblue ;
+    font-size: 24px;
+
+}
+aside{
+    background: yellow;
+
+}
+section{
+    vertical-align:top;
+
+}
+footer{
+    background: greenyellow;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
