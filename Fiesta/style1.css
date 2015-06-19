@@ -1,26 +1,29 @@
 body{
-    background: #c71585   center no-repeat;
+    background: #c71585 url("imges/F2.jpg")  top no-repeat;
 
     background-attachment: fixed;
-    background-size: 1050px 1050px;
+    background-size: 100%;
     font-size: 14px;
 }
 #contener{
-    
-    width: 1000px;
+   position: relative; 
+    width: 800px;
     background: #fff center;
     height: 1000px;
-    margin: 20px 100px 20px 100px;
+    margin: 0 auto;
     
     box-shadow: 0 0 10px black;
 }
 header{
-    color: #c71585; 
-    text-align: center;
-    background: dodgerblue ;
-    font-size: 24px;
+
+    background: #99d1de url("imges/F3.jpg")  top no-repeat ;
+
+    height:21% ;
+    background-size: 70%;
+
 
 }
+/*Навигация*/
 aside{
     background: yellow;
     text-align: center;
@@ -34,15 +37,37 @@ aside a{
 aside a:hover{
     color: green;
 }
+/*основной контент*/
 section{
+    position: relative;
+    height: 66%;
     vertical-align:top;
-    text-align: center;
-    height: 100px;
 }
+section img{
+    float: left;
+    margin: 0 10px;
+   width: 200px;
+    
+}
+.s-title{
+    background: #666;
+
+    font-family: cursive;
+    font-size: 16px;
+    margin:10px 10px 0 220px;
+}
+.s-text{
+
+    background: #999;
+    margin: 0 10px 0 220px;
+}
+
+/*подвал*/
 footer{
+   width: 100%;
     background: greenyellow;
     text-align: center;
-    height: 150px;
+    height: 100px;
 }
 .foo-block{
     float: left;
