@@ -7,9 +7,9 @@ body{
 }
 #contener{
    position: relative; 
-    width: 800px;
+    max-width: 1200px;
     background: #fff center;
-    height: 1000px;
+    height: 1500px;
     margin: 0 auto;
     
     box-shadow: 0 0 10px black;
@@ -27,7 +27,7 @@ header{
 aside{
     background: yellow;
     text-align: center;
-    height: 31px;
+    height: 3%;
 }
 aside a{
     color: #000;
@@ -42,6 +42,15 @@ section{
     position: relative;
     height: 66%;
     vertical-align:top;
+    overflow: scroll;
+}
+.s-block{
+    position: relative;
+    height: 250px;
+    margin: 10px 10px 10px 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 section img{
     float: left;
@@ -50,24 +59,25 @@ section img{
     
 }
 .s-title{
-    background: #666;
+
 
     font-family: cursive;
-    font-size: 16px;
-    margin:10px 10px 0 220px;
+    font-size: 19px;
+    margin:0 0 0 220px;
 }
 .s-text{
 
-    background: #999;
-    margin: 0 10px 0 220px;
+    font-size: 14px;
+    margin: 10px 0 0 220px;
 }
 
 /*подвал*/
 footer{
+    position: static;
    width: 100%;
     background: greenyellow;
     text-align: center;
-    height: 100px;
+    height: 10%;
 }
 .foo-block{
     float: left;
