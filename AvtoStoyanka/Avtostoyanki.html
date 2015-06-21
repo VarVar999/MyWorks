@@ -2,12 +2,11 @@
 <html>
 <head lang="en, ru">
     <meta charset="UTF-8">
-    <title>Администратор</title>
+    <title>Автостоянки</title>
     <link href="bootstrap/bootstrap.css" rel="stylesheet">
-    <link href="css/admin.css" rel="stylesheet">
+    <link href="css/parking.css" rel="stylesheet">
 </head>
 <body>
-
 
 <div class="container-fluid">
     <nav class="navbar navbar-default">
@@ -26,15 +25,15 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Работники <span class="sr-only">(current)</span></a></li>
-                    <li ><a href="Avtostoyanki.html">Автостоянки</a></li>
+                    <li ><a href="Admin.html">Работники <span class="sr-only">(current)</span></a></li>
+                    <li class="active"><a href="#">Автостоянки</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <!-- Button trigger modal -->
     <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-        Добавить охранника
+        Добавить автостоянку
     </button>
 
     <!-- Modal -->
@@ -43,26 +42,19 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel">Добавить охранника</h4>
+                    <h4 class="modal-title" id="myModalLabel">Добавить авто стоянку</h4>
                 </div>
                 <div class="modal-body">
 
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Ф.И.О. охранника</label>
-                        <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Ф.И.О.">
+                        <label for="exampleInputEmail1">Присвоить номер автостоянки</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Номер">
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Имя пользователя</label>
-                        <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Имя">
+                        <label for="exampleInputEmail1">Адрес автостоянки</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Адрес">
                     </div>
-                    <div class="form-group">
-                        <label for="exampleInputPassword1">Пароль</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Пароль">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleInputPassword1">Повторить пароль</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Повторить пароль">
-                    </div>
+
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
@@ -71,28 +63,35 @@
             </div>
         </div>
     </div>
-    <h1>Cписок работников</h1>
+    <h1>Cписок автостоянок</h1>
 
-    <table class="table">
+    <table class="table table-hover" >
         <thead>
 
-            <tr>
-                <th>Ф.И.О</th>
-                <th>Номер стоянки</th>
-                <th>Дата поступления</th>
-            </tr>
+        <tr>
+            <th>№ Автостоянки</th>
+            <th> Адрес</th>
+            <th>Охранник</th>
+            <th>Количество машин</th>
+            <th>Сумма.руб.</th>
+        </tr>
         </thead>
 
         <tbody>
 
         <tr>
-            <td>Чуриков И.Л</td>
-            <td>№34</td>
-            <td>02.03.2015</td>
-        </tr><tr>
-            <td>Марков Д.А</td>
-            <td>№32</td>
-            <td>01.03.2015</td>
+            <td>34</td>
+            <td>ул.Уральская,д. 39</td>
+            <td>Чуриков И.Л.</td>
+            <td>24</td>
+            <td>1200</td>
+        </tr>
+        <tr>
+            <td>23</td>
+            <td>пр.К.Маркса,д 7</td>
+            <td>Марков Д.А.</td>
+            <td>46</td>
+            <td>2300</td>
         </tr>
         </tbody>
     </table>

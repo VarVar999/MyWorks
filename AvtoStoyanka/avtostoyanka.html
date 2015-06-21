@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Автостоянка</title>
+    <link href="bootstrap/bootstrap.css" rel="stylesheet">
+    <link href="css/parkin2.css" rel="stylesheet">
+</head>
+<body>
+<div class="container-fluid">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Сервис по управлению автостоянкой</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li ><a href="Admin.html">Работники <span class="sr-only">(current)</span></a></li>
+                    <li ><a href="Avtostoyanki.html">Автостоянки</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <h1>Информация о автостоянке</h1>
+
+<div class="info-avto">
+    <div class="row">
+        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-8">№ номер автостоянки: </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">23 </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">Адрес:</div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">пр.К.Маркса,д 7 </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">Охранник:</div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">Марков Д.А.</div>
+    </div>
+</div>
+    <h1>Список машин</h1>
+
+    <table class="table table-hover" >
+        <thead>
+
+        <tr>
+            <th>Владелец авто</th>
+            <th> ГОСНомер</th>
+            <th>Время прибытия</th>
+            <th>Время отбытия</th>
+            <th>Оплаченно руб.</th>
+        </tr>
+        </thead>
+
+        <tbody>
+
+        <tr>
+            <td>Сталин И.В.</td>
+            <td> т666ер 777 rus</td>
+            <td>22:00 16.05.2015</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Горбачев М.С.</td>
+            <td>р345ен 777 rus</td>
+            <td>21:34 30.05.2015</td>
+            <td>09:37 31.05.2015</td>
+            <td>50</td>
+        </tr>
+        </tbody>
+    </table>
+
+
+</div>
+
+
+
+
+
+
+
+<script src="bootstrap/jquery-1.11.3.js"></script>
+<script src="bootstrap/bootstrap.js"></script>
+
+</body>
+</html>
