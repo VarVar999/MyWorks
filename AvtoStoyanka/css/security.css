@@ -1,0 +1,26 @@
+.h-1{
+
+    margin: 30px 30px 0px 200px;
+}
+.z-avto{
+    margin: 10px 30px 5px 20px;
+}
+.p-avto{
+    margin: 10px 30px 5px 20px;
+}
+.inp-avto{
+    margin: 10px;
+
+}
+
+     input[type="submit"]{
+     border: 0;
+    background:-webkit-linear-gradient(10deg,red 20%,mediumvioletred 80%);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px 5px 5px 5px;
+    padding: 5px;
+    }
+    input[type="submit"]:hover{
+    color: #000;
+   }

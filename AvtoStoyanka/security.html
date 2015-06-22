@@ -8,8 +8,11 @@
         </head>
         <body>
 
-        <h1>Автостоянка № 23</h1>
+       <div class="h-1">
+           <h1>Автостоянка № 23</h1>
+       </div>
 
+      <div class="z-avto">
         <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
             Зарегистрировать авто
         </button>
@@ -38,6 +41,7 @@
                         </div>
 
                     </div>
+
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
                         <button type="button" class="btn btn-primary">Зарегистрировать</button>
@@ -45,27 +49,38 @@
                 </div>
             </div>
         </div>
-        <div>
+      </div>
+        <div class="p-avto">
                <a class="btn btn-primary" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-            поставить машину
-        </a>
+            поставить авто</a>
         <div class="collapse" id="collapseExample">
             <div class="well">
-                <input type="text"  placeholder="№ карты" ><br>
-                <input type="submit" value="Поставить" >
+                <div class="inp-avto">
+                    <input type="text" class="form-control" placeholder="№ карты" >
+                </div>
+                    <div class="inp-avto">
+                        <input type="submit" class="form-control" value="Поставить" >
+                    </div>
 
             </div>
         </div>
         </div>
-        <div>
+        <div class="p-avto">
         <a class="btn btn-primary" role="button" data-toggle="collapse" href="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
             забрать авто
         </a>
         <div class="collapse" id="collapseExample1">
             <div class="well">
-                <input type="text"  placeholder="№ карты" ><br>
-                <input type="number"  placeholder="Сумма" ><br>
-                <input type="submit" value="Оплатить" >
+              <div class="inp-avto">
+                  <input type="text"  class="form-control" placeholder="№ карты" >
+              </div>
+                <div class="inp-avto">
+                    <input type="number" class="form-control" placeholder="Сумма" >
+                </div>
+                <div class="inp-avto">
+                    <input type="submit"  class="form-control" value="Оплатить" >
+                </div>
+              </div>
             </div>
         </div>
         </div>
