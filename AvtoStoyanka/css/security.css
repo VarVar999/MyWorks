@@ -2,6 +2,9 @@
 
     margin: 30px 30px 0px 200px;
 }
+.well{
+
+}
 .z-avto{
     margin: 10px 30px 5px 20px;
 }
@@ -9,11 +12,21 @@
     margin: 10px 30px 5px 20px;
 }
 .inp-avto{
-    margin: 10px;
+    width: 200px;
+    margin: 5px;
+
+
+}
+.inp-sub{
+    width: 100px;
+    margin: 0 0 0 5px;
+}
+.form-control{
+
 
 }
 
-     input[type="submit"]{
+    input[type="submit"]{
      border: 0;
     background:-webkit-linear-gradient(10deg,red 20%,mediumvioletred 80%);
     color: #fff;
