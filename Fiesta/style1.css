@@ -1,5 +1,5 @@
 body{
-    background: #c71585 url("imges/F2.jpg")  top no-repeat;
+    background: #99d1de url("imges/F2.jpg")  top no-repeat;
 
     background-attachment: fixed;
     background-size: 100%;
@@ -42,7 +42,7 @@ section{
     position: relative;
     height: 66%;
     vertical-align:top;
-    overflow: scroll;
+    overflow: auto;
 }
 .s-block{
     position: relative;
@@ -73,13 +73,15 @@ section img{
 
 /*подвал*/
 footer{
-    position: static;
+    position:absolute;
+    bottom: 0;
    width: 100%;
     background: greenyellow;
     text-align: center;
     height: 10%;
 }
 .foo-block{
+    width: 30%;
     float: left;
 }
 .foo-block a{
