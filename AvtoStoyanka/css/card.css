@@ -14,7 +14,7 @@ body {
     height: 53.98mm;
     color: #fff;
     font: 22px/1 'Iceland', monospace;
-    background: #23189a;
+    background: #000;
     border: 1px solid #1e1584;
     -webkit-border-radius: 10px;
     -webkit-background-clip: padding-box;
@@ -398,5 +398,5 @@ body {
 
 }
 .inp-sub{
-
+    margin: 0 20px 0 35px;
 }
