@@ -1,0 +1,130 @@
+        <!DOCTYPE html>
+        <html>
+        <head lang="en">
+            <meta charset="UTF-8">
+            <title>Учет авто</title>
+            <link href="bootstrap/bootstrap.css" rel="stylesheet">
+            <link href="css/security.css" rel="stylesheet">
+        </head>
+        <body>
+
+        <h1>Автостоянка № 23</h1>
+
+        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+            Зарегистрировать авто
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Зарегистрировать авто</h4>
+                    </div>
+                    <div class="modal-body">
+
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Ф.И.О. владельца </label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Ф.И.О.">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">ГОСНомер</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="ГОСНомер">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">№ карты</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="№ карты">
+                        </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+                        <button type="button" class="btn btn-primary">Зарегистрировать</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+               <a class="btn btn-primary" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+            поставить машину
+        </a>
+        <div class="collapse" id="collapseExample">
+            <div class="well">
+                <input type="text"  placeholder="№ карты" ><br>
+                <input type="submit" value="Поставить" >
+
+            </div>
+        </div>
+        </div>
+        <div>
+        <a class="btn btn-primary" role="button" data-toggle="collapse" href="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
+            забрать авто
+        </a>
+        <div class="collapse" id="collapseExample1">
+            <div class="well">
+                <input type="text"  placeholder="№ карты" ><br>
+                <input type="number"  placeholder="Сумма" ><br>
+                <input type="submit" value="Оплатить" >
+            </div>
+        </div>
+        </div>
+
+        <h1>Список машин</h1>
+
+        <table class="table table-hover" >
+            <thead>
+
+            <tr>
+                <th>№ Карты</th>
+         <!--       <th>Владелец авто</th>
+                <th> ГОСНомер</th> -->
+                <th>Время прибытия</th>
+                <th>Время отбытия</th>
+                <th>Оплаченно руб.</th>
+            </tr>
+            </thead>
+
+            <tbody>
+
+            <tr>
+                <td>000451</td>
+                <!--      <td>Сталин И.В.</td>
+                      <td> т666ер 777 rus</td>-->
+                      <td>22:00 16.05.2015</td>
+                      <td></td>
+                      <td></td>
+                  </tr>
+                  <tr>
+                      <td>000542</td>
+                      <!--<td>Горбачев М.С.</td>
+                      <td>р345ен 777 rus</td>-->
+                      <td>21:34 30.05.2015</td>
+                      <td>09:37 31.05.2015</td>
+                      <td>50</td>
+                  </tr>
+                  </tbody>
+              </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <script src="bootstrap/jquery-1.11.3.js"></script>
+      <script src="bootstrap/bootstrap.js"></script>
+      </body>
+      </html>
