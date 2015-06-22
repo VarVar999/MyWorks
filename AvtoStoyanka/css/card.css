@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Iceland);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800);
 body {
-    background-color: #ecf0f1;
+    background: url("../img/soft_circle_scales.png");
 }
 .card {
     position: absolute;
